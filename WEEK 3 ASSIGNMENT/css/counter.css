@@ -1,0 +1,54 @@
+body {
+    background: url("../images/background_image.jpg") center/cover fixed no-repeat;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.border-box {
+    border: 0.2rem solid white;
+    box-shadow: 0.4rem 0.4rem 0.4rem black;
+    border-radius: 0.4rem;
+    min-width: 300px;
+
+}
+
+.text_counter {
+    color: white;
+    text-align: center;
+    font-size: 4rem ;
+    font-family: 'Calibri';
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    
+}
+
+.counter{
+    color: green;
+    font-size: 10rem;
+    text-align: center;
+}
+.back_buttons, .front_buttons{
+    display: block;
+    color: white;
+    box-shadow: 0.3rem 0.3rem 0.4rem black ;
+    border-color:black;
+    min-width: 250px;
+    max-width: fit-content;
+    text-align: center;
+    font-style: bold;
+    max-height: fit-content;
+    padding-left: 0.3em;x
+    padding-right: 0.3em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    background:rgb(4, 4, 51);
+    border-radius: 0.25em;
+    font-size: 1.75rem;
+    margin: 2rem auto;
+}
+.front_buttons{
+    margin-bottom: 4rem;
+}
